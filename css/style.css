@@ -612,6 +612,7 @@ footer .container {
 }
 .modal-wrapper-input-icon {
   position: relative;
+  margin-bottom: 16px;
 }
 .input-name {
   width: 100%;
