@@ -454,7 +454,70 @@ footer .container {
   fill: #f4f4fd;
 }
 .footer-icons-media {
-} /* #endregion */
+}
+
+.subscribe-wrapper {
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.subscribe-label {
+  gap: 24px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  line-height: 2;
+  font-size: 12px;
+  letter-spacing: 0.04px;
+  color: #ffffff;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
+}
+.subscribe-input::placeholder {
+  color: #ffffff;
+}
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  fill: #fff;
+}
+.subscribe-icon {
+  margin-left: 16px;
+}
+
+/* #endregion */
 /*  */
 /* #region Modal */
 .backdrop {
@@ -534,7 +597,7 @@ footer .container {
   margin-bottom: 16px;
 }
 .modal-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-label {
   display: block;
@@ -631,7 +694,7 @@ footer .container {
   fill: #f4f4fd;
 }
 .modal-wrapper-checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .modal-link-privacy {
   line-height: 1.33;
