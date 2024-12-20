@@ -597,8 +597,12 @@ footer .container {
   margin-bottom: 16px;
 }
 .modal-wrapper {
+  margin-bottom: 8px;
+}
+.modal-wrapper-comment {
   margin-bottom: 16px;
 }
+
 .modal-label {
   display: block;
   font-family: 'Roboto', sans-serif;
